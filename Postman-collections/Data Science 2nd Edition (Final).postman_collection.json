@@ -1,0 +1,262 @@
+{
+	"info": {
+		"_postman_id": "7c58351c-8e28-4e55-8869-74a5a39e5560",
+		"name": "Data Science 2nd Edition (Final)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4691688"
+	},
+	"item": [
+		{
+			"name": "Chapter 3 Hands-on Exercises",
+			"item": [
+				{
+					"name": "Exercise 3",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "api-key",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \r\n    \"messages\": [\r\n \r\n        {\r\n \r\n            \"role\": \"system\",\r\n \r\n            \"content\": \"You are a helpful assistant\"\r\n \r\n        },\r\n \r\n        {\r\n \r\n            \"role\": \"user\",\r\n \r\n            \"content\": \"Complete this sentence: The quick brown fox...\"\r\n \r\n        }\r\n    ],\r\n    \"temperature\": 0\r\n  \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://<Azure_OpenAI_Instance_Name>.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-02-15-preview",
+							"protocol": "https",
+							"host": [
+								"<Azure_OpenAI_Instance_Name>",
+								"openai",
+								"azure",
+								"com"
+							],
+							"path": [
+								"openai",
+								"deployments",
+								"gpt-4",
+								"chat",
+								"completions"
+							],
+							"query": [
+								{
+									"key": "api-version",
+									"value": "2024-02-15-preview"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Chapter 9 Hands-on Exercises",
+			"item": [
+				{
+					"name": "Exercise-9-3",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Prediction-Key",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"Url\": \"https://media.sciencephoto.com/image/f0187039/800wm/F0187039-Construction_workers_eating_lunch.jpg\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://<AI_Services_Name>.cognitiveservices.azure.com/customvision/v3.0/Prediction/<guid_from_customvision.ai>/detect/iterations/safety_v1/url",
+							"protocol": "https",
+							"host": [
+								"<AI_Services_Name>",
+								"cognitiveservices",
+								"azure",
+								"com"
+							],
+							"path": [
+								"customvision",
+								"v3.0",
+								"Prediction",
+								"<guid_from_customvision.ai>",
+								"detect",
+								"iterations",
+								"safety_v1",
+								"url"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Exercise-9-4-Transcribe",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);\r",
+									"postman.setEnvironmentVariable(\"Transcript\", jsonData.DisplayText);\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Ocp-Apim-Subscription-Key",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "audio/wav",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "file",
+							"file": {
+								"src": "postman-cloud:///1eeee013-249c-4f20-aa40-8bbdecd026c2"
+							}
+						},
+						"url": {
+							"raw": "https://<AI_Services_Region>.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=zh-CN",
+							"protocol": "https",
+							"host": [
+								"<AI_Services_Region>",
+								"stt",
+								"speech",
+								"microsoft",
+								"com"
+							],
+							"path": [
+								"speech",
+								"recognition",
+								"conversation",
+								"cognitiveservices",
+								"v1"
+							],
+							"query": [
+								{
+									"key": "language",
+									"value": "zh-CN"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Exercise-9-4-Translate",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);\r",
+									"postman.setEnvironmentVariable(\"Translate\", jsonData[0].translations[0].text);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Ocp-Apim-Subscription-Key",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Ocp-Apim-Subscription-Region",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\"Text\":\"{{Transcript}}。\"}\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=en-US",
+							"protocol": "https",
+							"host": [
+								"api",
+								"cognitive",
+								"microsofttranslator",
+								"com"
+							],
+							"path": [
+								"translate"
+							],
+							"query": [
+								{
+									"key": "api-version",
+									"value": "3.0"
+								},
+								{
+									"key": "to",
+									"value": "en-US"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
