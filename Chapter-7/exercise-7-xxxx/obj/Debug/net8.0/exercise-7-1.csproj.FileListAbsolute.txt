@@ -1,0 +1,15 @@
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\bin\Debug\net8.0\exercise-7-1.exe
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\bin\Debug\net8.0\exercise-7-1.deps.json
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\bin\Debug\net8.0\exercise-7-1.runtimeconfig.json
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\bin\Debug\net8.0\exercise-7-1.dll
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\bin\Debug\net8.0\exercise-7-1.pdb
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.AssemblyInfoInputs.cache
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.AssemblyInfo.cs
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.csproj.CoreCompileInputs.cache
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.sourcelink.json
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.dll
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\refint\exercise-7-1.dll
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.pdb
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.genruntimeconfig.cache
+C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\ref\exercise-7-1.dll
