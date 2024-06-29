@@ -1,0 +1,12 @@
+Draft an email detailing a special sales event with up to 50% off on the type of merchandise below. Include disclaimer in the footnote of the email that they are receiving this email because they opted into our mailing list.";
+Email MUST BE:
+- G RATED
+- WORKPLACE/FAMILY SAFE
+NO SEXISM, RACISM OR OTHER BIAS/BIGOTRY
+
+BE CREATIVE but professional.
+Email recipient is: {{$recipient}}.
++++++
+
+{{$input}}
++++++
