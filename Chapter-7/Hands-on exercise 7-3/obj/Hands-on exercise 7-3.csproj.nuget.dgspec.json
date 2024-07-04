@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj": {}
+    "C:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj": {}
   },
   "projects": {
-    "c:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj": {
+    "C:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj",
+        "projectUniqueName": "C:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj",
         "projectName": "Hands-on exercise 7-3",
-        "projectPath": "c:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj",
+        "projectPath": "C:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj",
         "packagesPath": "C:\\Users\\julianso\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\obj\\",
+        "outputPath": "C:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julianso\\AppData\\Roaming\\NuGet\\NuGet.Config",

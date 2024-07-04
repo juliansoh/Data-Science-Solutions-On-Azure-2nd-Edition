@@ -14,14 +14,14 @@ var azureEndpoint = "https://jsopenai-east.openai.azure.com/";
 var model = "gpt-4-0125";
 var apiKey = "75b6983f87db4926ab950aa947fba9c3";
 
-var config = new ConfigurationBuilder()
-    .AddUserSecrets<Program>()
-    .AddEnvironmentVariables()
-    .Build()
-    ?? throw new InvalidOperationException("Configuration is not provided.");
+//var config = new ConfigurationBuilder()
+//    .AddUserSecrets<Program>()
+//    .AddEnvironmentVariables()
+//    .Build()
+//    ?? throw new InvalidOperationException("Configuration is not provided.");
 
-ArgumentNullException.ThrowIfNull(config["OpenAI:ChatModelId"], "OpenAI:ChatModelId");
-ArgumentNullException.ThrowIfNull(config["OpenAI:ApiKey"], "OpenAI:ApiKey");
+//ArgumentNullException.ThrowIfNull(config["OpenAI:ChatModelId"], "OpenAI:ChatModelId");
+//ArgumentNullException.ThrowIfNull(config["OpenAI:ApiKey"], "OpenAI:ApiKey");
 
 //var kernelBuilder = Kernel.CreateBuilder().AddAzureOpenAIChatCompletion(
 //    modelId: config["OpenAI:ChatModelId"]!,

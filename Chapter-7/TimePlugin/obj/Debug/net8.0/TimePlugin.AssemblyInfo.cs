@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TimePlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95ceb019f9c459ea80cfb339927bdb76edd4b4c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9c4321b57cf299fd44f4fea837a32b13c492148")]
 [assembly: System.Reflection.AssemblyProductAttribute("TimePlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TimePlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

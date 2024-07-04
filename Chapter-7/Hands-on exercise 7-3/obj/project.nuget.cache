@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WaTslYiJfIo=",
+  "dgSpecHash": "efmKb7UNI50=",
   "success": true,
-  "projectFilePath": "c:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj",
+  "projectFilePath": "C:\\Users\\julianso\\Documents\\Dev\\Data-Science-Solutions-on-Azure-2nd-Edition\\Chapter-7\\Hands-on exercise 7-3\\Hands-on exercise 7-3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julianso\\.nuget\\packages\\azure.ai.openai\\1.0.0-beta.17\\azure.ai.openai.1.0.0-beta.17.nupkg.sha512",
     "C:\\Users\\julianso\\.nuget\\packages\\azure.core\\1.39.0\\azure.core.1.39.0.nupkg.sha512",
