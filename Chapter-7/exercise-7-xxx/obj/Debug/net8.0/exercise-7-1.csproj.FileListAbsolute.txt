@@ -1,5 +1,0 @@
-C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.AssemblyInfoInputs.cache
-C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.AssemblyInfo.cs
-C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.csproj.CoreCompileInputs.cache
-C:\Users\julianso\Documents\Dev\Data-Science-Solutions-on-Azure-2nd-Edition\Chapter-7\exercise-7-1\obj\Debug\net8.0\exercise-7-1.sourcelink.json
