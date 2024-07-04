@@ -1,0 +1,7 @@
+If the inventory of the item is not 0, then add the item description based on the SKU to the OrderNumber. Otherwise, state the the item is out of stock. Then show all items that are associated to this OrderNumber.
+
+Item SKU is: {{$SKU}}.
++++++
+
+Order Number is: {{$OrderNumber}}
++++++
