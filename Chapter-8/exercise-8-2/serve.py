@@ -9,8 +9,8 @@ from langserve import add_routes
 
 import os
 
-os.environ["AZURE_OPENAI_API_KEY"] = "c2a213e68f7f45bca6b7940ba914f191"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://ds-2nd-ed.openai.azure.com/"
+os.environ["AZURE_OPENAI_API_KEY"] = "<Enter_API_Key_Here>"
+os.environ["AZURE_OPENAI_ENDPOINT"] = "https://....openai.azure.com/"
 os.environ["AZURE_OPENAI_API_VERSION"] = "2024-02-01"
 os.environ["AZURE_OPENAI_DEPLOYMENT_NAME"] = "gpt-35"
 
