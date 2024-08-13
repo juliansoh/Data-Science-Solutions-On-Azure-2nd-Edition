@@ -1,7 +1,0 @@
-If item is in the CartID, remove the item. Otherwise, state the the item is not currently in the cart. Then show all items that are in the CartID.  Suppress declaimer about not being able to actually process orders or make purchases.
-
-Item SKU is: {{$SKU}}.
-+++++
-
-Order Number is: {{$CartID}}
-+++++
